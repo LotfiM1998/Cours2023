@@ -1,4 +1,7 @@
+package Main;
+
 import Composite.*;
+import Decorator.Compteur;
 import Strategy.*;
 
 import java.io.IOException;
@@ -6,7 +9,7 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) throws IOException {
     ListerMots l=new ListerMots("./Resources/text.txt");
-    l.imprimerSi(new CommencePar('t'));
+    l.imprimerSi(new Compteur(new CommencePar('t')));
         System.out.println("Length");
         l.imprimerSi(new DeLongueur(4));
         System.out.println("Palindrome");
