@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LogicielBase/LogicielBase.iml" filepath="$PROJECT_DIR$/LogicielBase/LogicielBase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LogicielDessin.iml" filepath="$PROJECT_DIR$/LogicielDessin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LogicielDessinStrategie/LogicielDessinAbstractFactcory.iml" filepath="$PROJECT_DIR$/LogicielDessinStrategie/LogicielDessinAbstractFactcory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LogicielDessinTemplateMethode/LogicielDessinTemplateMethode.iml" filepath="$PROJECT_DIR$/LogicielDessinTemplateMethode/LogicielDessinTemplateMethode.iml" />
+    </modules>
+  </component>
+</project>
